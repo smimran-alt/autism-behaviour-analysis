@@ -1,0 +1,9 @@
+AUTISM BEHAVIOUR ANALYSIS — ORIGINAL IMAGE UPDATE
+
+1. Open GitHub repository smimran-alt/autism-behaviour-analysis.
+2. Choose Add file > Upload files.
+3. Upload index.html, styles.css, script.js, robots.txt, sitemap.xml and the entire assets folder (keep the folder structure). GitHub's browser upload may require dragging the files/folder from an extracted ZIP.
+4. Commit changes to main and wait for GitHub Pages to finish deploying.
+5. Refresh the GitHub Pages website (Ctrl+Shift+R).
+
+The six new images are original AI-generated artwork cropped into individual assets. Existing hero/logo/other images are retained. The live custom domain and DNS do not need to change.
