@@ -126,3 +126,36 @@
     grid-template-columns: 1fr;
   }
 }
+/* Final Featured Resources layout correction */
+#resources .wrap {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) !important;
+  max-width: 1280px;
+  width: calc(100% - 40px);
+  margin-inline: auto;
+}
+
+#resources .section-head {
+  grid-column: 1 / -1;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+#resources .cards {
+  grid-column: 1 / -1;
+  width: 100%;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 24px;
+}
+
+@media (max-width: 900px) {
+  #resources .cards {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 560px) {
+  #resources .cards {
+    grid-template-columns: 1fr;
+  }
+}
