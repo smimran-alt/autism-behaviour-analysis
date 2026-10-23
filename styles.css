@@ -92,3 +92,37 @@
   width: 100%;
   min-width: 0;
 }
+/* Featured Resources — full-width layout */
+#resources .wrap {
+  display: block;
+  max-width: 1280px;
+  margin-inline: auto;
+}
+
+#resources .section-head {
+  display: block;
+  margin-bottom: 32px;
+}
+
+#resources .section-head h2 {
+  max-width: 850px;
+}
+
+#resources .cards {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 24px;
+}
+
+@media (max-width: 900px) {
+  #resources .cards {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 560px) {
+  #resources .cards {
+    grid-template-columns: 1fr;
+  }
+}
