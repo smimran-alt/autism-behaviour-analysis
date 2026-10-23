@@ -47,3 +47,13 @@
     grid-template-columns: 1fr;
   }
 }
+/* Keep all four Featured Resources cards level */
+#resources .cards > .photo-card {
+  margin-top: 0 !important;
+  transform: none;
+  align-self: stretch;
+}
+
+#resources .cards > .photo-card:hover {
+  transform: translateY(-5px);
+}
