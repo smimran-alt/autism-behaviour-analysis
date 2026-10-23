@@ -79,3 +79,16 @@
   font-size: 14px;
   line-height: 1.6;
 }
+/* Featured Resources — wider card area */
+#resources .wrap {
+  max-width: 1500px;
+}
+
+#resources .section-head {
+  max-width: 100%;
+}
+
+#resources .cards {
+  width: 100%;
+  min-width: 0;
+}
