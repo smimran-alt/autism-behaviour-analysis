@@ -57,3 +57,25 @@
 #resources .cards > .photo-card:hover {
   transform: translateY(-5px);
 }
+/* Improve Featured Resources card spacing */
+#resources .wrap {
+  max-width: 1440px;
+}
+
+#resources .cards {
+  gap: 18px;
+}
+
+#resources .card-content {
+  padding: 22px 18px;
+}
+
+#resources .card-content h3 {
+  font-size: 18px;
+  line-height: 1.3;
+}
+
+#resources .card-content p {
+  font-size: 14px;
+  line-height: 1.6;
+}
